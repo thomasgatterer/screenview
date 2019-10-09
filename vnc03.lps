@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="vnc03.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="vnc03"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="13" Y="10"/>
+        <UsageCount Value="57"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="vnc_u3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="vnc_u3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="119"/>
+        <CursorPos X="3" Y="137"/>
+        <UsageCount Value="57"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="COMMON95/F_UTIL.pas"/>
+        <UnitName Value="F_UTIL"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="COMMON95/LANG95_F.pas"/>
+        <UnitName Value="LANG95_F"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="COMMON95/LANG95_U.pas"/>
+        <UnitName Value="LANG95_U"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="COMMON95/Nov95_u.pas"/>
+        <UnitName Value="NOV95_U"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="COMMON95/NOV95_IF.pas"/>
+        <UnitName Value="NOV95_IF"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="COMMON95/TOOLS95.pas"/>
+        <UnitName Value="TOOLS95"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="WKSCOPY-neu/WKSCP4_U.pas"/>
+        <UnitName Value="WKSCP4_U"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="9"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="6">
+      <Item1>
+        <Expression Value="PC_NAME"/>
+      </Item1>
+      <Item2>
+        <Expression Value="PC_VALUE"/>
+      </Item2>
+      <Item3>
+        <Expression Value="ZEILE"/>
+      </Item3>
+      <Item4>
+        <Expression Value="SPALTE"/>
+      </Item4>
+      <Item5>
+        <Expression Value="Form1.Process1.CommandLine"/>
+      </Item5>
+      <Item6>
+        <Expression Value="INFO"/>
+      </Item6>
+    </Watches>
+  </Debugging>
+</CONFIG>

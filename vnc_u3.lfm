@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 233
+  Height = 511
+  Top = 147
+  Width = 780
+  Caption = 'Form1'
+  ClientHeight = 511
+  ClientWidth = 780
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.0.10.0'
+  object BTN_EXIT: TButton
+    Left = 64
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'E&xit'
+    OnClick = BTN_EXITClick
+    TabOrder = 0
+  end
+  object CB_VIEWONLY: TCheckBox
+    Left = 24
+    Height = 20
+    Top = 472
+    Width = 82
+    Caption = 'nur &lesen'
+    Checked = True
+    State = cbChecked
+    TabOrder = 1
+  end
+  object PANEL_F8: TPanel
+    Left = 268
+    Height = 50
+    Top = 10
+    Width = 170
+    Caption = 'Panel_F8'
+    TabOrder = 2
+  end
+  object CB_FULLSCREEN: TCheckBox
+    Left = 144
+    Height = 20
+    Top = 472
+    Width = 86
+    Caption = 'fullscreen'
+    Checked = True
+    State = cbChecked
+    TabOrder = 3
+  end
+  object Process1: TProcess
+    Active = False
+    Options = [poUsePipes]
+    Priority = ppNormal
+    StartupOptions = []
+    ShowWindow = swoNone
+    WindowColumns = 0
+    WindowHeight = 0
+    WindowLeft = 0
+    WindowRows = 0
+    WindowTop = 0
+    WindowWidth = 0
+    FillAttribute = 0
+    left = 40
+    top = 32
+  end
+end
